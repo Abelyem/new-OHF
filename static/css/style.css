@@ -4,7 +4,66 @@
 }
 
 body {
-    background-color: var(--light-green);
+/*     background-color: var(--light-green);*/
+    box-sizing: border-box;
+} 
+
+
+/* NAVBAR */
+
+nav {
+    background-color: #fff;
+}
+
+.logo {
+    height: auto;
+    width: auto;
+    max-height: 50px;
+}
+
+/* LANDING PAGE IMAGES / NAME OF FOUNDATION AND FOUNDERS */
+
+.flex-container {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 
+.flex-images {
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+    width: fit-content;
+    background-color: red;
+}
+
+@media (min-width: 1399.98px) { 
+    .flex-images {
+        height: 55vh;
+    }
+ }
+
+
+.flex-images > * {
+    max-height: 450px;
+    max-width: 350px;
+    box-sizing: border-box;
+
+}
+
+.flex-images>*:nth-child(1) {
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.flex-images>*:nth-child(2) {
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.flex-images>*:nth-child(3) {
+    justify-content: center;
+    align-self: flex-end;
+}
