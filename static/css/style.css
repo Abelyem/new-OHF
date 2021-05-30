@@ -1,0 +1,10 @@
+:root {
+    --light-green: #429e79;
+    --dark-green: #0C1D16;
+}
+
+body {
+    background-color: var(--light-green);
+}
+
+
