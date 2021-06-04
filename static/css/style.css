@@ -35,16 +35,19 @@ nav {
 }
 
  .flex-container {
-    box-sizing: border-box;
     background-color: var(--dark-green);
     border: 4px solid #fff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+    width: fit-content;
+    padding: 2rem 1rem;
 } 
 
  .flex-images {
     height: fit-content;
     width: 100%;
     padding-bottom: 1.5rem;
-
 }
 
  @media (max-width: 1199.98px) { 
