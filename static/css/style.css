@@ -1,11 +1,12 @@
 :root {
     --light-green: #bde4d6;
     --dark-green: #183027;
+    --bright-orange: #DEA300;
 }
 
 body {
     box-sizing: border-box;
-    background-color: var(--light-green);
+    background-color: var(--dark-green);
     max-width: 100%;
     overflow-x: hidden;
     height: 100%;
@@ -15,7 +16,21 @@ body {
 /* NAVBAR */
 
 nav {
-    background-color: #fff;
+    background-color: var(--dark-green);
+}
+
+.nav-link {
+    color: var(--bright-orange)!important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    border-bottom: 0.5px solid var(--bright-orange);
+    font-weight: 700;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(222, 163, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
 .logo {
@@ -29,13 +44,8 @@ nav {
 #home {
 }
 
-.title {
-    color: var(--light-green);
-    margin-top: 2rem;
-}
-
  .flex-container {
-    background-color: var(--dark-green);
+    background-color: var(--bright-orange);
     border: 4px solid #fff;
     margin-right: auto;
     margin-left: auto;
@@ -43,6 +53,15 @@ nav {
     width: fit-content;
     padding: 2rem 1rem;
 } 
+
+.title {
+    color: var(--dark-green);
+    margin-top: 2rem;
+}
+
+.name {
+    color: var(--dark-green);
+}
 
  .flex-images {
     height: fit-content;
@@ -71,9 +90,22 @@ nav {
 }
 
 .jumbotron {
-    background-color: var(--light-green);
+    background-color: var(--dark-green);
 }
 
 .jumbotron > p {
+    color: var(--bright-orange);
+    font-weight: 600;
+    word-spacing: 1px;
+}
+
+.index-about-us-btn {
     color: var(--dark-green);
+    background-color: var(--bright-orange);
+}
+
+.index-about-us-btn:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
 }
