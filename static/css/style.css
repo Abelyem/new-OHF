@@ -109,3 +109,32 @@ nav {
     color: #fff;
     font-weight: 500;
 }
+
+/* --------- ABOUT US PAGE STYLING ---------- */
+
+/* -- ABOUT US PAGE */
+
+.about-us-info,
+.about-us-title {
+    padding: 1rem 3rem;
+}
+
+.about-us-page>h2,
+p {
+    color: #fff;
+}
+
+.about-us-title {
+    border-bottom: 2px solid #fff;
+    width: fit-content;
+}
+
+
+
+.social-welfare > h4 {
+    color: var(--bright-orange);
+}
+
+.fa-caret-down {
+    color: var(--bright-orange);
+}
