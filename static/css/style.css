@@ -158,3 +158,16 @@ h5 {
     border-top: 1px solid var(--bright-orange);
 }
 
+.OHF-q-and-a {
+    padding: 3rem;
+}
+
+.q-and-a {
+    border: 2px solid var(--bright-orange);
+    padding: 2rem;
+}
+
+.fa-search {
+    font-size: 7.5rem;
+    color: var(--bright-orange);
+}
