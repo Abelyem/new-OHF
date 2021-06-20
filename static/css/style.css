@@ -171,3 +171,37 @@ h5 {
     font-size: 7.5rem;
     color: var(--bright-orange);
 }
+
+/* ----- GALLERY SECTION ---- */
+
+.gallery-section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    
+}
+
+.gallery-img-container > img {
+    width: 20vw;
+    height:25vh; 
+    object-fit: cover;
+    border: 1px solid var(--dark-green);
+    cursor: pointer;
+}
+
+
+/* ----- PRESS PAGE SECTION ---- */
+
+.press-page > h2 {
+    color: var(--bright-orange);
+}
+
+.press-pg-img {
+    max-width: 70%;
+    max-height: 40%;
+}
+
+.press-page-button {
+    text-decoration: none!important;
+    color: var(--bright-orange);
+}
