@@ -172,13 +172,35 @@ h5 {
     color: var(--bright-orange);
 }
 
+
+/* ----- Iframe VIDEO styling ---- */
+
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 57vw;
+    height: 52vh;
+    display: block;
+}
+
+@media (max-width: 991.98px) { 
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85vw;
+        height: 60vh;
+        display: block;
+    }
+ }
+
+
 /* ----- GALLERY SECTION ---- */
 
 .gallery-section {
     width: 100vw;
     height: 100vh;
     background-color: #fff;
-    
+    padding-top: 3rem;
 }
 
 .gallery-img-container > img {
