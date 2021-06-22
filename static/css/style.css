@@ -39,10 +39,17 @@ nav {
     max-height: 50px;
 }
 
+.dropdown-menu {
+    background-color: var(--dark-green);
+}
+
+.dropdown-item {
+    color: var(--bright-orange);
+}
+
+
 /* LANDING PAGE IMAGES / NAME OF FOUNDATION AND FOUNDERS */
 
-#home {
-}
 
  .flex-container {
     background-color: var(--bright-orange);
