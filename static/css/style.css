@@ -211,11 +211,12 @@ iframe {
 }
 
 .image > img {
-    width: 17vw;
+    width: 18vw;
     height:22vh; 
     object-fit: cover;
     border: 1px solid var(--dark-green);
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 
