@@ -263,6 +263,13 @@ iframe {
 
 /* ---- FOUNDER SECTION (ABOUT US) STYLING --- */
 
+.founder-img {
+    border-radius: 20%;
+    max-width: 85%;
+    max-height: 85%;
+    border: 2px solid var(--bright-orange);
+}
+
 
 /* ---- GRAND PATREON SECTION (ABOUT US) STYLING --- */
 
