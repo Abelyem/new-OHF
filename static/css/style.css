@@ -142,7 +142,7 @@ nav {
 
 /* --------- ABOUT US PAGE STYLING ---------- */
 
-/* -- ABOUT US PAGE */
+/* -- ABOUT US PAGE -- OHF OPTION SPECIFIC */
 
 .about-us-info,
 .about-us-title {
@@ -260,6 +260,27 @@ iframe {
 .image > img:hover {
     opacity: 0.8;
 }
+
+/* ---- FOUNDER SECTION (ABOUT US) STYLING --- */
+
+
+/* ---- GRAND PATREON SECTION (ABOUT US) STYLING --- */
+
+.patreon-header {
+    color: var(--bright-orange);
+    margin-bottom: 2rem;
+}
+
+.patreon-img {
+    border-radius: 30%;
+    max-width: 85%;
+    max-height: 85%;
+    border: 2px solid var(--bright-orange);
+}
+
+/* ---- TRUSTEES SECTION (ABOUT US) STYLING --- */
+/* ---- PARTNERS SECTION (ABOUT US) STYLING --- */
+
   
 
 
