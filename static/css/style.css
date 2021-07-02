@@ -96,6 +96,29 @@ nav {
     max-width: 350px;
 }
 
+.first-image,
+.second-image,
+.third-image {
+    border-radius: 10%;
+}
+
+.second-image {
+    margin-left: -4rem; 
+}
+
+.second-image,
+.third-image {
+    margin-top: 3rem;
+}
+
+@media (max-width: 1200px) {
+    .first-image,
+    .second-image,
+    .third-image {
+        margin: 0;
+    }
+}
+
 .jumbotron {
     background-color: var(--dark-green);
 }
