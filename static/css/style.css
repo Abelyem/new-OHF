@@ -251,8 +251,8 @@ iframe {
 
 @media (max-width: 575px) {
     .image > img {
-        width: 55vw;
-        height: 50vh;
+        width: 70vw;
+        height: 35vh;
     }
 }
 
