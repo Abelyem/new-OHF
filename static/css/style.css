@@ -288,17 +288,18 @@ applies to both headers so it is styled below under the Grand patreon styling se
     }
 
  }
- 
 
-
-
-/* ---- GRAND PATREON SECTION (ABOUT US) STYLING --- */
+/* ----NOTE** styling directly below targets headers of multiple pages
+and is not restricted to 1 page  --- */
 
 .patreon-header,
-.founder-header {
+.founder-header,
+.partner-header {
     color: var(--bright-orange);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
+/* ---- GRAND PATREON SECTION (ABOUT US) STYLING --- */
+
 
 .patreon-img {
     border-radius: 30%;
@@ -308,9 +309,13 @@ applies to both headers so it is styled below under the Grand patreon styling se
 }
 
 /* ---- TRUSTEES SECTION (ABOUT US) STYLING --- */
+
 /* ---- PARTNERS SECTION (ABOUT US) STYLING --- */
 
-  
+.partner-img {
+    border-radius: 25%;
+    border: 2px solid var(--bright-orange);
+}
 
 
 /* --- MoBWIH PAGE STYLING */
