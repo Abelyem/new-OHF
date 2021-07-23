@@ -311,6 +311,17 @@ and is not restricted to 1 page  --- */
 
 /* ---- TRUSTEES SECTION (ABOUT US) STYLING --- */
 
+.trustees-container > h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: var(--bright-orange);
+}
+
+.trustees-img-container > img {
+    max-width: 200px;
+    max-height: 300px;
+}
+
 /* ---- PARTNERS SECTION (ABOUT US) STYLING --- */
 
 .partner-img {
