@@ -317,10 +317,18 @@ and is not restricted to 1 page  --- */
     color: var(--bright-orange);
 }
 
-.trustees-img-container > img {
-    max-width: 200px;
-    max-height: 300px;
+.trustee-names {
+    padding-right: 1rem;
+    padding-left: 0;
 }
+
+.fa-male,
+.fa-female {
+    font-size: 3rem;
+    color: var(--bright-orange);
+    padding: 0!important;
+}
+
 
 /* ---- PARTNERS SECTION (ABOUT US) STYLING --- */
 
