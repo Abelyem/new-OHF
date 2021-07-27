@@ -313,28 +313,39 @@ and is not restricted to 1 page  --- */
 
 .trustees-container > h2 {
     text-align: center;
-    padding-bottom: 2rem;
-    color: var(--bright-orange);
+    color: var(--bright-orange);  
+    padding-bottom: 2rem;  
 }
 
 .trustee-names {
     padding-right: 1rem;
     padding-left: 0;
+    font-size: 25px;
+    height: 3.5rem;
 }
 
-.fa-male,
-.fa-female {
-    font-size: 3rem;
-    color: var(--bright-orange);
-    padding: 0!important;
+.trustee-imgs {
+    max-width: 100%;
+    height: 250px;
 }
 
 
 /* ---- PARTNERS SECTION (ABOUT US) STYLING --- */
 
-.partner-img {
+.partner-img-bonnie,
+.partner-img-taj {
     border-radius: 25%;
     border: 2px solid var(--bright-orange);
+}
+
+.partners-pg-separator {
+    background-color: var(--bright-orange);
+    margin: 1rem 0;
+}
+
+.partner-img-taj {
+    width: 100%;
+    height: 100%;
 }
 
 
