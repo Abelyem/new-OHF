@@ -276,6 +276,13 @@ applies to both headers so it is styled below under the Grand patreon styling se
     padding-right: 15px;
 }
 
+.founder-img-2 {
+    max-width: 35%;
+    max-height: 35%;
+    display: inline;
+    float: right;
+}
+
 
 @media (max-width: 767.98px) { 
     .founder-img {
