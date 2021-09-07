@@ -457,3 +457,18 @@ and is not restricted to 1 page  --- */
     padding: 1rem 0;
     color: var(--bright-orange);
 }
+
+.address-details {
+    text-align: center;
+}
+
+.address-header {
+    color: var(--bright-orange);
+}
+
+@media (max-width: 576px) { 
+    .address-details {
+        border: 2px solid var(--bright-orange);
+        padding: 2px 10px;
+    }
+ }
