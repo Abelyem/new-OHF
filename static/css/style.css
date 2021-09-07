@@ -472,3 +472,13 @@ and is not restricted to 1 page  --- */
         padding: 2px 10px;
     }
  }
+
+ .contact-details {
+    color: var(--bright-orange);
+    text-decoration: none;
+ }
+ 
+ .contact-details:hover {
+     font-weight: 700;
+     color: var(--bright-orange);
+}
