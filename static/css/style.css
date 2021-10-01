@@ -318,22 +318,28 @@ and is not restricted to 1 page  --- */
 
 /* ---- TRUSTEES SECTION (ABOUT US) STYLING --- */
 
-.trustees-container > h2 {
+.trustees-header {
     text-align: center;
     color: var(--bright-orange);  
     padding-bottom: 2rem;  
+    display: block;
+    width: 100vw;
 }
 
 .trustee-names {
     padding-right: 1rem;
     padding-left: 0;
-    font-size: 25px;
-    height: 5rem;
+    font-size: 16px;
+    text-align: center;
 }
 
 .trustee-imgs {
     max-width: 100%;
     height: 250px;
+}
+
+.individual-trustee-container {
+    margin: 5px;
 }
 
 
