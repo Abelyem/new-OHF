@@ -68,20 +68,18 @@
 
         <h2 class="trustees-header">Trustees</h2>
 
-
         <div class="individual-trustee-container">
             <h5 class="trustee-names"><i class="fas fa-male"></i> His Grace (Rtd.) Archbishop L.S. Ayo
                 Ladigbolu</h5>
-            
             <img src="static/images/archbishop_img.jpg" class="trustee-imgs">
-
         </div>
 
-
         <div class="individual-trustee-container">
-            <h5 class="trustee-names"><i class="fas fa-female"></i> Mrs Yewande Amusan</h5>
+            <h5 class="trustee-names">
+                <i class="fas fa-female"></i> Mrs Yewande Amusan
+                <button onclick="ShowHideTrusteeInfo()" class="btn btn-dark trustee-info-btn">info</button>
+            </h5>
             <img src="static/images/business_woman.jpeg" class="trustee-imgs">
-
         </div>
 
         <div class="individual-trustee-container">
@@ -90,6 +88,27 @@
             </h5>
             <img src="static/images/law_barrister_img.jpg" class="trustee-imgs">
         </div>
+
+        <div class="individual-trustee-container">
+            <h5 class="trustee-names"><i class="fas fa-male"></i> (Chief) Mrs. Lilian Omotunde
+            </h5>
+            <img src="static/images/law_barrister_img.jpg" class="trustee-imgs">
+        </div>
+
+        <!-- INFO ON YEWANDE (HIDDEN UNTIL ONCLICK FUNCTION CALLED)-->
+        <div id="yewandeInfo">
+            <span onclick="yewandeInfo.style.display='none'"
+                class="closeInfoBtn">&times;</span>
+            <p>A professional with 25+ years of Corporate, Financial Industry and Public sector Experience.
+
+                Between 2011 and 2019 held several positions in the public as the Honorable Commissioner for Culture and
+                Tourism and as a Senior Consultant to the Governor on Culture & Tourism in Ogun State.
+            </p>
+        </div>
+
+        <!-- INFO ON TRUSTEE 2 (ADD NAME) (HIDDEN UNTIL ONCLICK FUNCTION CALLED)-->
+
+
     </div>
 
 

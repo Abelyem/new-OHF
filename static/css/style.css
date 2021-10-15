@@ -340,6 +340,54 @@ and is not restricted to 1 page  --- */
 
 .individual-trustee-container {
     margin: 5px;
+    padding-bottom: 10px;
+}
+
+#yewandeInfo {
+    display: none;
+    color: yellow;
+
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#yewandeInfo > p {
+    text-align: center;
+    background-color: black;
+    max-width: 60%;
+    max-height: 80%;
+    height: fit-content;
+    opacity: 0.7;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.closeInfoBtn {
+    font-size: 5rem;
+    color: var(--bright-orange);
+}
+
+/* ----  Button which says 'info' and is found at the end of each trustee name */
+
+.trustee-info-btn {
+    padding: 0.06rem 0.5rem;
+}
+
+.trustee-info-btn:hover {
+    border: 2px solid var(--bright-orange);
 }
 
 
