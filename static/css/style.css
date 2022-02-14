@@ -1,7 +1,10 @@
 :root {
     --light-green: #bde4d6;
-    --dark-green: #183027;
     --bright-orange: #DEA300;
+    
+    /*  NEW COLOURS */
+
+    --green-shade: #2c7335;
 }
 
 body {
@@ -15,17 +18,20 @@ body {
 
 /* NAVBAR */
 
+.navbar {
+    padding: 0 1rem;
+}
+
 nav {
-    background-color: var(--dark-green);
+    background-color: var(--green-shade);
 }
 
 .nav-link {
-    color: var(--bright-orange)!important;
+    color: #fff!important;
     font-weight: 600;
 }
 
 .nav-link:hover {
-    border-bottom: 0.5px solid var(--bright-orange);
     font-weight: 700;
 }
 
@@ -36,7 +42,12 @@ nav {
 .logo {
     height: auto;
     width: auto;
-    max-height: 50px;
+    max-height: 70px;
+    background-color: #fff;
+    position: fixed;
+    top: 0%;
+    left: 1%;
+    padding: 0 1rem;
 }
 
 .dropdown-menu {
