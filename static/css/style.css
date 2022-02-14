@@ -44,10 +44,11 @@ nav {
     width: auto;
     max-height: 70px;
     background-color: #fff;
-    position: fixed;
+    position: absolute;
     top: 0%;
     left: 1%;
     padding: 0 1rem;
+    z-index: 999!important;
 }
 
 .dropdown-menu {
@@ -61,25 +62,28 @@ nav {
 
 /* LANDING PAGE IMAGES / NAME OF FOUNDATION AND FOUNDERS */
 
+#home {
+    position: relative; /* so we can place text over img */
+}
 
- .flex-container {
-    background-color: var(--bright-orange);
-    border: 4px solid #fff;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 1rem;
-    max-width: fit-content;
-    padding: 2rem 1rem;
-} 
+.home-pg-img {
+    width:-webkit-fill-available;
+}
+
+.names-and-OHF {
+    background-color:var(--green-shade);
+    border: 1px solid purple;
+    position: absolute;
+    bottom: 3rem;
+    color: #fff;
+}
+
 
 .title {
     color: var(--dark-green);
     margin-top: 2rem;
 }
 
-.name {
-    color: var(--dark-green);
-}
 
  .flex-images {
     height: fit-content;
