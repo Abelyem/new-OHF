@@ -51,11 +51,11 @@ nav {
 }
 
 .dropdown-menu {
-    background-color: var(--dark-green);
+    background-color: var(--green-shade);
 }
 
 .dropdown-item {
-    color: var(--bright-orange);
+    color: #fff;
 }
 
 
